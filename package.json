@@ -4,12 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon -w *.js -w .env server.js"
   },
   "author": "Tran Minh Sang",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
     "express": "^4.18.1"
   },
   "devDependencies": {
